@@ -5,7 +5,7 @@ before_install:
 #cache:
 #  directories:
 #    - "node_modules"
-script: "sudo npm test"
+#script: "sudo npm test"
 
 dist: trusty
 sudo: required
