@@ -3,6 +3,9 @@ node_js:
   - "7"
 before_install:
    - stty cols 80
+   - npm install n
+   - sudo ./node_modules/.bin/n stable
+   - rm -rf ~/.nvm
 #cache:
 #  directories:
 #    - "node_modules"
