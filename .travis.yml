@@ -3,7 +3,7 @@ node_js:
   - "7"
 before_install:
    - stty cols 80
-#cache:
-#  directories:
-#    - "node_modules"
-script: "sudo $(type -P npm) test"
+cache:
+  directories:
+    - "node_modules"
+#script: "sudo $(type -P npm) test"
