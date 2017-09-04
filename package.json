@@ -1,7 +1,7 @@
 {
   "name": "testcafe-example",
   "scripts": {
-    "test": "testcafe chrome,firefox test/"
+    "test": "testcafe chrome,firefox test/",
     "lint": "eslint test components"
   },
   "dependencies": {
